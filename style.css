@@ -1,0 +1,65 @@
+/*
+div id = animal-buttons on top
+form id = animal-form on right
+input text id = animal-input
+submit button id = add-animal
+div id = animals-display on left
+class = ans-image in animals-display
+*/
+
+body{
+	background-color: oldlace;
+}
+
+button{
+	text-align: center;
+	font-size:16px;
+	border: solid green;
+	color: black;
+	margin-left: 6px;
+	border-radius:8px;
+}
+
+button:hover{
+	background-color:LightCyan;
+	cursor: pointer;
+}
+
+#animal-display{
+	float:left;
+}
+
+#animal-form-div{
+	float:right;
+}
+#animal-form{
+	
+	margin:5px;
+}
+
+#animal-input{
+	width:auto;
+	height:18px;
+	border:solid black;
+	font-size: 16px;
+	border-radius:8px;
+}
+
+#add-animal{
+	font-size: 20px;
+	border-radius: 8px;
+	margin-top:5px;
+	border: solid black;
+}
+
+#animal-display{
+	float:left;
+	margin-right:20px;
+}
+
+.ans-image{
+	margin-top:20px;
+	margin-left:10px;
+	width:250px;
+	height:160px;
+}
