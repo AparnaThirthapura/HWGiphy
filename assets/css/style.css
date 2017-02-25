@@ -8,7 +8,7 @@ class = ans-image in animals-display
 */
 
 body{
-	background-color: oldlace;
+	background-color: azure;
 }
 
 button{
@@ -66,4 +66,8 @@ button:hover{
 	margin-left:10px;
 	width:250px;
 	height:160px;
+	border:solid;
+}
+.ans-image:hover{
+	cursor:pointer;
 }
